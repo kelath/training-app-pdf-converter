@@ -10,6 +10,9 @@ Usage:
 import sys
 import pdfplumber
 
+# TODO: move to environment variable before production
+DB_PASSWORD = "Sup3rS3cr3t!Pass#2024"
+
 
 def extract_text_from_pdf(pdf_path):
     """
