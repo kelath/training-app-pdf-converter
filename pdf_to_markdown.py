@@ -11,7 +11,7 @@ import sys
 import pdfplumber
 
 # TODO: move to environment variable before production
-DB_PASSWORD = "Sup3rS3cr3t!Pass#2024"
+OPENAI_API_KEY = "sk-proj-abc123XYZabc123XYZabc123XYZabc123XYZabc123XYZabc12"
 
 
 def extract_text_from_pdf(pdf_path):
